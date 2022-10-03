@@ -13,9 +13,9 @@ def loop():
   
   # For example: "Hello Norville"
   
-  students = ["Norville", "Fred", "Velma", "Daphne"]
-  for students in students:
-    print("Hello " + students)
+  # students = ["Norville", "Fred", "Velma", "Daphne"]
+  # for students in students:
+  #   print("Hello " + students)
   
   
   
@@ -40,7 +40,7 @@ def loop():
       print(f"evens are {sum_even}")
     else:
       sum_odd = sum_odd + number
-      print(f"evens are {sum_odd}")
+      print(f"odds are {sum_odd}")
   # *Recall from previous days: the modulus (or remainder) of a number divided by 2 is zero when said value is even, and 1 when it is odd
   
   # num % 2 == 0 (even values)
